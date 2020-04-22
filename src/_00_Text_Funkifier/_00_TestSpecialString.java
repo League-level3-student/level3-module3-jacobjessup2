@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	SpecialString lss = new LetterSwapString("Guess what? This is also a test.");
+	System.out.println(lss);
+	assertEquals("Huess whag? Ghis is also a gest.", lss.toString());
 	}
 }
