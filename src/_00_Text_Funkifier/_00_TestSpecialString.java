@@ -40,6 +40,6 @@ public class _00_TestSpecialString {
 	public void testCustomString() {
 	SpecialString lss = new LetterSwapString("Guess what? This is also a test.");
 	System.out.println(lss);
-	assertEquals("Huess whag? Ghis is also a gest.", lss.toString());
+	assertEquals("Guess wpag? Gpis is als~ a gesg.", lss.toString());
 	}
 }
